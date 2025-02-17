@@ -1,8 +1,9 @@
 # FILE NAME - glue_name.py
 
-# NAME: 
-# DATE: 
-# BRIEF DESCRIPTION:  
+# NAME: Yusuf Khan
+# DATE: 02/13/25
+# BRIEF DESCRIPTION: A program that outputs "Hi" followed by the first and last name entered 
+# by the user.  
 
 
 
@@ -16,19 +17,13 @@
 
 
 ########## ENTER YER CODE BELOW THIS LINE ##########
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+def glue_name():
+   fname = input('Enter first name: ')
+   lname = input('Enter last name: ')
+   name = fname+' '+lname
+   print('Hi,', name)
+glue_name()   
 ########### END YER CODE ABOVE THIS LINE ###########
-
-
 
 
 ########################################
@@ -76,6 +71,9 @@ Hi, Lisa Simpson, esquire
 1. What is a lesson you learned during this lab? You do not have to restrict
    your response to Python. It might be a lesson in time management, a lesson
    using CodeGrade, or something else.
+
+I learned that if a code is saved into a certain function by defining it, it can be used 
+over again any time withiout having to rewrite the whole code all over again.
 
 
 
